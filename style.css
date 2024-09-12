@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #004fe1, #08a1f7);
+    background-attachment: fixed;
+}
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+/* Container that holds the glass card */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Glass effect card */
+.glass-card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    width: auto;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+.divline {
+  background-color:rgba(255,255,255,1);
+  height:1px;
+  width:auto;
+}
+.img {
+  width:500px;
+  /*height:10vh;*/
+  border-radius:15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* Styling the button */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    backdrop-filter: blur(5px);
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+button:active {
+  transform:scale(0.9);
+}
+
+
+
+
+/* Navbar */
+.navbar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: auto;
+    padding: 0px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox for horizontal layout */
+.navbar .navcontain {
+    list-style: none;
+    display: flex;
+    margin-left:15px;
+    margin-right:15px;
+    /*justify-content: space-between;*/
+}
+
+.navbar .navcontain a {
+    margin: 15px 15px 15px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+/*.navbar ul li a {*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*    font-size: 18px;*/
+/*    transition: color 0.3s ease;*/
+/*}*/
+
+.navbar .navcontain a:hover {
+    color: #e09;
+}
+
