@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #004fe1, #08a1f7);
+    background: url("https://github.com/5xdf/cavmsite/blob/main/images/img19.jpg?raw=true");
     background-attachment: fixed;
 }
 * {
