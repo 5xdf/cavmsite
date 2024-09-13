@@ -10,7 +10,7 @@ body {
     height: 100vh;
     background-image: url("https://github.com/5xdf/cavmsite/blob/main/images/img19.jpg?raw=true");
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
 }
 * {
   font-family: 'Montserrat', sans-serif;
